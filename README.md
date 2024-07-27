@@ -2,7 +2,9 @@
 
 
 
-nvmedia 不支持x86   
+nvmedia 不支持x86运行       
+NvMedia samples is intended for demonstrating hardware acceleration across NVIDIA Tegra devices so there is no support for compiling and running for host system.    
+
 
 6060     
 
