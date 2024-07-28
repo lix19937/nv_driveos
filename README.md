@@ -1,5 +1,4 @@
-# nv_driveos 
-
+# nv_driveos 6060   
 
 
 nvmedia 不支持x86运行       
