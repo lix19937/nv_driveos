@@ -1,6 +1,8 @@
 参考模块  Image 2D (nvmimg_2d)  
 
-https://developer.nvidia.com/docs/drive/drive-os/6.0.6/public/drive-os-linux-sdk/common/topics/nvmedia_sample_apps/Image2D_nvmimg_2d_1.html   
+https://developer.nvidia.com/docs/drive/drive-os/6.0.6/public/drive-os-linux-sdk/common/topics/nvmedia_sample_apps/Image2D_nvmimg_2d_1.html      
+
+https://forums.developer.nvidia.com/t/how-to-handle-the-crop-resize-nomalize-and-permute-of-png-images-on-vic/247729    
 
 主要API NvMedia2DCompose    
    NvSciBufObjGetPixels    
