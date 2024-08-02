@@ -1,6 +1,6 @@
 420p    https://fourcc.org/pixel-format/yuv-i420/  
 422p    
-
+jpeg  https://docs.fileformat.com/image/jpeg/   
 
 
  pitchlinear and blocklinear  
