@@ -152,7 +152,7 @@ __global__ void yuv422p2rgb_kernel_v1(
   // int dst_step = dcn * w;
   // int src_step = 2 * w; // scn =2
 
-  auto step_iter = src_step * j;
+  auto step_iter = (2 * w) * j;
 
   auto row = dst_data + (dcn * w) * j + (dcn * 2) * i;
 
