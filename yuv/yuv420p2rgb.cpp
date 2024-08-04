@@ -124,9 +124,9 @@ inline void yuv42xxp2rgb8(
 
 template <int bIdx, int dcn, bool is420>
 void yuv420p2rgb(
-    uint8_t* dst_data /* rgb */,
-    size_t stride /* width */,
-    size_t dst_step /* width*c */,
+    uint8_t* dst_data, /* rgb */
+    size_t stride, /* width */
+    size_t dst_step, /* width*c */
     int width,
     int height,
     const uint8_t* _y,
