@@ -1,3 +1,6 @@
+
+https://en.wikipedia.org/wiki/YUV  
+
 420p  plane   https://fourcc.org/pixel-format/yuv-i420/  
 422p  packed     
 jpeg  https://docs.fileformat.com/image/jpeg/   
