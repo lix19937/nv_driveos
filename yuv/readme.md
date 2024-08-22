@@ -10,6 +10,10 @@ jpeg  https://docs.fileformat.com/image/jpeg/
  https://forums.developer.nvidia.com/t/pitch-linear-memory/15526    
  https://forums.developer.nvidia.com/t/whats-the-difference-between-layout-pitch-and-layout-blocklinear/54272    
 
+resize 函数 opencv 中  modules\imgproc\src\resize.cpp   
+resizeNN
+ResizeFunc   
+
 
 bgr   
 ![debug](https://github.com/user-attachments/assets/fd08ea05-126c-4e4a-9cfc-570f0ae70094)    
