@@ -1,13 +1,14 @@
 # nv_driveos 6060   
 
 
-nvmedia 不支持x86运行       
-NvMedia samples is intended for demonstrating hardware acceleration across NVIDIA Tegra devices so there is no support for compiling and running for host system.    
+注意：nvmedia 不支持x86运行       
+> NvMedia samples is intended for demonstrating hardware acceleration across NVIDIA Tegra devices so there is no support for compiling and running for host system.    
 
 
-6060     
+本仓库对orin-x 上几个硬件加速模块样例进行二次开发。      
 
 
+## Reference   
 
 sdk   
 https://developer.nvidia.com/docs/drive/drive-os/6.0.6/public/drive-os-linux-sdk/index.html
