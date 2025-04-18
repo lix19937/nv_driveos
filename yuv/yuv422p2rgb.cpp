@@ -134,8 +134,20 @@ void yuv422p2rgb(
     const uint8_t* src_data) {
   ////////// NOTE  dcn = 3;  // rgb/bgr is 3, rgba/bgra is 4
   //////////       bIdx = 2; // rgb is 2, bgr is 0   `B` location index
-  // int ycn  = (code==COLOR_YUV2RGB_UYVY || code==COLOR_YUV2BGR_UYVY ||
-  //             code==COLOR_YUV2RGBA_UYVY || code==COLOR_YUV2BGRA_UYVY) ? 1 : 0;
+  /*
+        case COLOR_YUV2RGB_UYVY: case COLOR_YUV2BGR_UYVY: case COLOR_YUV2RGBA_UYVY: case COLOR_YUV2BGRA_UYVY:
+        case COLOR_YUV2RGB_YUY2: case COLOR_YUV2BGR_YUY2: case COLOR_YUV2RGB_YVYU: case COLOR_YUV2BGR_YVYU:
+        case COLOR_YUV2RGBA_YUY2: case COLOR_YUV2BGRA_YUY2: case COLOR_YUV2RGBA_YVYU: case COLOR_YUV2BGRA_YVYU:
+            //http://www.fourcc.org/yuv.php#UYVY
+            //http://www.fourcc.org/yuv.php#YUY2
+            //http://www.fourcc.org/yuv.php#YVYU
+            {
+                int ycn  = (code==COLOR_YUV2RGB_UYVY || code==COLOR_YUV2BGR_UYVY ||
+                            code==COLOR_YUV2RGBA_UYVY || code==COLOR_YUV2BGRA_UYVY) ? 1 : 0;
+                cvtColorOnePlaneYUV2BGR(_src, _dst, dcn, swapBlue(code), uIndex(code), ycn);
+                break;
+            }
+  */
   //
   // for COLOR_YUV2RGB_UYVY,  bIdx=2, uIdx=0, yIdx=1, dcn=3
   // for COLOR_YUV2BGR_UYVY,  bIdx=0, uIdx=0, yIdx=1, dcn=3
