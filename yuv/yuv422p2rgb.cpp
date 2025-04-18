@@ -170,7 +170,7 @@ void yuv422p2rgb(
       uchar vy0 = yuv_src[i + yIdx];
       uchar vy1 = yuv_src[i + yIdx + 2];
 
-     // ref cvtYuv42xxp2RGB8 from opencv4.9.0   
+     // ref cvtYuv42xxp2RGB8 from opencv4.9.0   modules/imgproc/src/color_yuv.simd.hpp     
       yuv42xxp2rgb8<bIdx, dcn, false>(u, v, vy0, vy1, 0, 0, row, (uchar*)(0));
     }
   }
