@@ -149,9 +149,9 @@ void yuv422p2rgb(
             }
   */
   //
-  // for COLOR_YUV2RGB_UYVY,  bIdx=2, uIdx=0, yIdx=1, dcn=3
-  // for COLOR_YUV2BGR_UYVY,  bIdx=0, uIdx=0, yIdx=1, dcn=3
-
+  // for COLOR_YUV2RGB_UYVY,                      bIdx=2, uIdx=0, yIdx=1, dcn=3
+  // for COLOR_YUV2BGR_UYVY,                      bIdx=0, uIdx=0, yIdx=1, dcn=3
+  // for COLOR_YUV2BGR_YUY2 (COLOR_YUV2BGR_YUYV)  bIdx=0, uIdx=1, yIdx=0, dcn=3
   const int rangeBegin{0};
   const int rangeEnd{height};
 
