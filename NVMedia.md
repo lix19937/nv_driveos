@@ -12,6 +12,9 @@ https://developer.nvidia.com/docs/drive/drive-os/6.0.7/public/drive-os-linux-sdk
 https://developer.nvidia.com/blog/sharing-cuda-resources-through-interoperability-with-nvscibuf-and-nvscisync/   
 https://developer.nvidia.com/docs/drive/drive-os/6.0.7/public/drive-os-linux-sdk/api_reference/group__x__nvmedia__top.html  
 
+不是线程安全的   
+https://forums.developer.nvidia.com/t/is-nvmedia2dblitex-thread-safe/265854/3   
+
 2D Processing   
 The 2D Processing API encompasses all NvMedia 2D image processing related functionality.
 
